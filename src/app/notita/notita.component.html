@@ -1,0 +1,6 @@
+<div class="card text-white bg-secondary" (click)="marcar()">
+  <div class="card-body" [ngClass]="notita.marcada? 'text-muted tachada':''">
+    <h4 class="card-title">{{notita.titulo}}</h4>
+    <p class="card-text" [innerHtml]="notita.contenido"></p>
+  </div>
+</div>
