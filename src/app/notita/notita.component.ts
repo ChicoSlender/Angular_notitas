@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Notita } from 'src/entidades/Notita';
+import { Notita } from 'src/app/entidades/Notita';
 
 @Component({
   selector: 'app-notita',
